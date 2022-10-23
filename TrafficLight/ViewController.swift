@@ -29,8 +29,6 @@ class ViewController: UIViewController {
         greenView.alpha = 0.2
         
         startButton.layer.cornerRadius = 15
-        
-        
     }
 
     @IBAction func colorizeButtonTapped() {
@@ -49,9 +47,6 @@ class ViewController: UIViewController {
             startButton.setTitle("NEXT", for: .normal)
             redView.alpha = 1
         }
-        
-        
     }
     
 }
-
